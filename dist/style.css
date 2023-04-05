@@ -3,12 +3,16 @@
   padding: 0;
   box-sizing: border-box;
   color: white;
+  font-family: sans-serif;
 }
 body {
-  background-image: url(./images/test3.jpg);
+  background-image: url(./images/background.jpg);
   background-size: cover;
-  background-position: 0px 50%;
-  min-height: 110vh;
+  background-position: 0 40%;
+  min-height: 100vh;
+}
+.nav-bar, .title {
+  background-color: rgba(0, 0, 0, 0.7);;
 }
 button {
   background: none;

@@ -7,6 +7,9 @@ function createBtn(name, text) {
 function createNav(name) {
   const nav = document.createElement("nav");
   nav.setAttribute("class", name);
+  const title = document.createElement("h1");
+  title.textContent = "AIYA RAMEN"
+  nav.appendChild(title);
   const homeBtn = createBtn("homeBtn", "Home");
   const menuBtn = createBtn("menuBtn", "Menu");
   const aboutBtn = createBtn("aboutBtn", "About");
