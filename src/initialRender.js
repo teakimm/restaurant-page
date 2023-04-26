@@ -12,11 +12,9 @@ function createNav(name) {
   nav.appendChild(title);
   const homeBtn = createBtn("homeBtn", "Home");
   const menuBtn = createBtn("menuBtn", "Menu");
-  const aboutBtn = createBtn("aboutBtn", "About");
   const contactBtn = createBtn("contactBtn", "Contact");
   nav.appendChild(homeBtn);
   nav.appendChild(menuBtn);
-  nav.appendChild(aboutBtn);
   nav.appendChild(contactBtn);
   return nav;
 }
@@ -28,13 +26,13 @@ function createMain(name) {
 function createFooter(name) {
   const footer = document.createElement("footer");
   footer.setAttribute("class", name);
-  const reference = document.createElement("div");
   const background = document.createElement("div");
-  reference.setAttribute("class", "reference");
-  reference.textContent = "Referred to link here for design";
+  const link = document.createElement("a");
+  link.textContent = "Paulo Doi";
+  link.href = "https://unsplash.com/@paulodoi";
   background.setAttribute("class", "background");
-  background.textContent = "Background images by link here"
-  footer.appendChild(reference);
+  background.textContent = "Photo provided by "
+  background.appendChild(link);
   footer.appendChild(background);
   return footer;
 }

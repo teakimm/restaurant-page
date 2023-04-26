@@ -1,3 +1,11 @@
+@font-face {
+  font-family: retrokiaCaps;
+  src: url(./assets/fonts/Retrokia\ Caps\ Regular.otf);
+}
+@font-face {
+  font-family: p22;
+  src: url(./assets/fonts/P22Underground-DmP.otf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -6,24 +14,72 @@
   font-family: sans-serif;
 }
 body {
-  background-image: url(./images/background.jpg);
+  background-image: url(./assets/images/background.jpg);
   background-size: cover;
   background-position: 0 40%;
   min-height: 100vh;
 }
 .nav-bar, footer {
-  background-color: rgba(0, 0, 0, 0.7);;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.nav-bar {
+  width: 100%;
+  text-align: center;
+}
+h1 {
+  font-family: retrokiaCaps;
+  font-size: 4rem;
+  letter-spacing: 0.3rem;
+  font-weight: 200;
+  line-height: 1;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 button {
   background: none;
+  border: none;
+  padding: 0;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 #content {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 footer {
+  width: 100%;
   margin-top: auto;
   display: flex;
   justify-content: space-evenly;
+}
+main {
+  max-width: 65rem;
+  min-height: 70vh;
+  padding: 3rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.about, .hours, .reserve {
+  margin-bottom: 1rem;
+}
+ul {
+  font-size: 1.2rem;
+}
+li {
+  list-style-type: none;
+}
+main img {
+  align-self: center;
+  height: 5rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
 }
