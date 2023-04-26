@@ -11,9 +11,19 @@ body {
   background-position: 0 40%;
   min-height: 100vh;
 }
-.nav-bar, .title {
+.nav-bar, footer {
   background-color: rgba(0, 0, 0, 0.7);;
 }
 button {
   background: none;
+}
+#content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-evenly;
 }
