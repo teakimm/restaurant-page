@@ -27,7 +27,7 @@ function createExtra(name) {
   const grubHub = document.createElement("img");
   grubHub.src = "https://images.squarespace-cdn.com/content/v1/5e5408489751421bd31438bc/1592606206963-HWBCAT0PINHR80PEUT2B/grubhub.png";
   const uberEats = document.createElement("img");
-  uberEats.src = "https://assets.stickpng.com/images/5f4921b668ecc70004ae7047.png";
+  uberEats.src = "https://static.wixstatic.com/media/baecfc_41a49d5173564992be2391ac06f07d69~mv2.png/v1/fill/w_373,h_384,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Uber%20Eats.png";
   reserve.appendChild(br);
   reserve.appendChild(grubHub);
   reserve.appendChild(uberEats);
